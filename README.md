@@ -30,6 +30,7 @@
    ```
    pacman -S base-devel
    ```
+   
    - Install MinGW-w64:
 
    To install MinGW-w64 for 64-bit, run:
@@ -40,6 +41,7 @@
    ```
    pacman -S mingw-w64-i686-gcc
    ```
+   
    - Add MinGW to PATH:
 
       Add the path of MinGW binaries to your system environment. The path will look something like:
@@ -52,6 +54,7 @@
    ```
    pacman -S mingw-w64-x86_64-cmake
    ```
+   
    - Install make:
    ```
    pacman -S mingw-w64-x86_64-make
