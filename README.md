@@ -26,6 +26,15 @@
    ```
    pacman -Syu
    ```
-   
+   - Install MinGW-w64:
+
+   To install MinGW-w64 for 64-bit, run:
+   ```
+   pacman -S mingw-w64-x86_64-gcc
+   ```
+   For 32-bit MinGW, use:
+   ```
+   pacman -S mingw-w64-i686-gcc
+   ```
 
    
