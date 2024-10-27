@@ -18,14 +18,11 @@
 
    - Update Package Database:
 
-   Open the MSYS2 terminal and update the package database and core system packages by running:
+   Open the MSYS2 terminal and update the package database and core system packages (to ensure everything is up-to-date) by running:
    ```
    pacman -Syu
    ```
-   After this, close the terminal and reopen it, then run the following command to ensure everything is up-to-date:
-   ```
-   pacman -Syu
-   ```
+   
    - Install essential development tools by running:
    ```
    pacman -S base-devel
