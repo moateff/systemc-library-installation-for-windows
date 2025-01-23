@@ -106,7 +106,7 @@
 
    - Building SystemC Library:
    ```
-   make --build . --config Debug
+   cmake --build . --config Debug
    ```
    
    - Running Sanity tests to validate the built library is functional(optional)
