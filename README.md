@@ -106,12 +106,12 @@
 
    - Building SystemC Library:
    ```
-   make --build . --config Debug
+   cmake --build . --config Debug
    ```
    
    - Running Sanity tests to validate the built library is functional(optional)
    ```
-   cmake --build . --config Debug --target examples/check
+   cmake --build . --config Debug --target check-examples
    ```
    This should run all the examples available with SystemC release and all of them should pass without any failures.
 
